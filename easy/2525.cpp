@@ -6,7 +6,7 @@ class Solution {
 public:
     std::string categorizeBox(int length, int width, int height, int mass) {
     std::string boxCategory1, boxCategory2, finalBoxCategory;
-    int volume = length * width * height;
+    long long int volume = static_cast<long long int>(length) * width * height;
 
     if((length >= std::pow(10,4)) || (width >= std::pow(10,4)) || (height>= std::pow(10,4)) || (mass >= std::pow(10,4)) || (volume >= std::pow(10,9))){
         boxCategory1 = "Bulky";
