@@ -11,6 +11,7 @@ public:
             } else if (newNum%2!=0){ // number is odd
                 newNum -= 1;
             }
+            stepCount++;
         }
     }
 };
