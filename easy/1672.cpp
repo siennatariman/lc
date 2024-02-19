@@ -16,6 +16,9 @@ public:
             if(currentHighest < container){
                 currentHighest = container;
             }
+        // Reset container for the next customer
+        container = 0;
+
       }  
 
     }
