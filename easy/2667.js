@@ -9,7 +9,7 @@ var createHelloWorld = function() {
     }
 };
 
-createHelloWorld();
+// createHelloWorld();
 /**
  * const f = createHelloWorld();
  * f(); // "Hello World"
