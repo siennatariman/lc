@@ -4,14 +4,16 @@
  */
 var createCounter = function(n) {
     var storage = n;
+
     return function() {
         if(storage == n){
-            storage ++;
+            storage++;
             return n;
         } else {
             return storage++;
         }
     };
+    
 };
 
 /** 
