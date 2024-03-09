@@ -8,6 +8,8 @@ var createCounter = function(n) {
         if(storage == n){
             storage ++;
             return n;
+        } else {
+            return storage++;
         }
     };
 };
