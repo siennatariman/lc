@@ -3,9 +3,12 @@
  * @return {Function} counter
  */
 var createCounter = function(n) {
-    
+    var storage = n;
     return function() {
-        
+        if(storage == n){
+            storage ++;
+            return n;
+        }
     };
 };
 
