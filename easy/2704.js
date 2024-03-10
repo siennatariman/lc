@@ -20,6 +20,11 @@ var expect = function(val) {
         }
     };
 
+    return {
+        toBe: toBe,
+        notToBe: notToBe
+    };
+
 };
 
 /**
