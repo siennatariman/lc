@@ -4,6 +4,14 @@
  */
 var expect = function(val) {
     
+	var toBe = function(valOne){
+        if(val===valOne){
+            return true;
+        } else {
+            throw new Error("Not Equal");
+        }
+    };
+    
 };
 
 /**
