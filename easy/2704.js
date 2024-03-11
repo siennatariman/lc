@@ -4,7 +4,7 @@
  */
 var expect = function(val) {
     
-	var toBe = function(valOne){
+    var toBe = function(valOne){
         if(val===valOne){
             return true;
         } else {
@@ -13,7 +13,7 @@ var expect = function(val) {
     };
 
     var notToBe = function(valTwo){
-        if(val!==ValTwo){
+        if(val!==ValTwo || ValTwo===null){
             return true;
         } else {
             throw new Error("Equal");
@@ -23,8 +23,7 @@ var expect = function(val) {
     return {
         toBe: toBe,
         notToBe: notToBe
-    };
-
+    }
 };
 
 /**
