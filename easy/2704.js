@@ -3,7 +3,8 @@
  * @return {Object}
  */
 var expect = function(val) {
-    
+    defaultValue = null;
+
     var toBe = function(valOne){
         if(val===valOne){
             return true;
@@ -13,7 +14,7 @@ var expect = function(val) {
     };
 
     var notToBe = function(valTwo){
-        if(val!==ValTwo || ValTwo===null){
+        if((val ?? defaultValue) !== (valTwo ?? defaultValue)){
             return true;
         } else {
             throw new Error("Equal");
