@@ -3,6 +3,18 @@
  * @return { increment: Function, decrement: Function, reset: Function }
  */
 var createCounter = function(init) {
+
+    var increment = function(){
+
+    };
+
+    var decrement = function(){
+
+    };
+
+    var reset = function(){
+
+    };
     
 };
 
@@ -12,5 +24,3 @@ var createCounter = function(init) {
  * counter.reset(); // 5
  * counter.decrement(); // 4
  */
-
-////
