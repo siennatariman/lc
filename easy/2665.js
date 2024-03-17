@@ -5,7 +5,7 @@
 var createCounter = function(init) {
 
     var increment = function(){
-
+        return init++;
     };
 
     var decrement = function(){
