@@ -4,29 +4,32 @@
  */
 var createCounter = function(init) {
     var storeInit = init;
+    var current;
 
     var increment = function(){
-        return init++;
+        storeInit++
+        return storeInit++;
     };
 
     var decrement = function(){
-        return init--;
+        storeInit--
+        return storeInit;
     };
 
     var reset = function(){
         init = storeInit;
         return init;
     };
-    //
+    
+    return {
+        increment: increment,
+        decrement: decrement,
+        reset: reset
+    };
     
 
-    //
+    
 };
-
-
-
-
-
 
 /**
  * const counter = createCounter(5)
