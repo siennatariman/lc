@@ -20,7 +20,7 @@ var createCounter = function(init) {
         init = storeInit;
         return init;
     };
-    
+    //
     return {
         increment: increment,
         decrement: decrement,
