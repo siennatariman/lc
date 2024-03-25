@@ -4,8 +4,8 @@
  */
 var createCounter = function(init) {
     var storeInit = init;
-    var current;
-
+    var currentValue = init
+    
     var increment = function(){
         storeInit++
         return storeInit++;
