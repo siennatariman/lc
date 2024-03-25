@@ -7,8 +7,8 @@ var createCounter = function(init) {
     var currentValue = init
     
     var increment = function(){
-        storeInit++
-        return storeInit++;
+        currentValue++
+        return currentValue;
     };
 
     var decrement = function(){
