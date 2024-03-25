@@ -12,8 +12,8 @@ var createCounter = function(init) {
     };
 
     var decrement = function(){
-        storeInit--
-        return storeInit;
+        currentValue--
+        return currentValue;
     };
 
     var reset = function(){
