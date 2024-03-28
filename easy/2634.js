@@ -12,7 +12,7 @@ var filter = function(arr, fn) {
         }
     }
     
-    
+    return filteredArr;
     
     // if(fn){
     //    filteredArr =  
