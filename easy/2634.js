@@ -17,6 +17,8 @@ var filter = function(arr, fn) {
     
 // 
 
+    //
+
 }; 
 
 // filter function takes in an array AND a function 
