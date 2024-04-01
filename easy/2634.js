@@ -15,13 +15,12 @@ var filter = function(arr, fn) {
     return filteredArr;
     
     
-// 
 
-    //
-    //
 
 }; 
 
 // filter function takes in an array AND a function 
 // the function that the filter function takes in has two arguments
 //namely, arr[i], 
+
+//
