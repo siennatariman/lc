@@ -13,5 +13,3 @@ var map = function(arr, fn) {
     return transformedArr;
 };
 
-//
-//
