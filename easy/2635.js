@@ -4,7 +4,7 @@
  * @return {number[]}
  */
 var map = function(arr, fn) {
-    
+    let transformedArr = [];
 };
 
 //
