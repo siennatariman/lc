@@ -5,13 +5,13 @@
  * @return {number}
  */
 var reduce = function(nums, fn, init) {
-    
+    let val = 0
     // Execute fn on each element of the array
     if(nums.length == 0){
         return init
     } else {
         for(let i = 0; i<nums.length; i++){
-
+            val = fn(nums[i], val)
         }
     }
     
