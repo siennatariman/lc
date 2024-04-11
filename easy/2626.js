@@ -14,6 +14,7 @@ var reduce = function(nums, fn, init) {
             val = fn(nums[i], val)
         }
         return val
+        //
     }
     
 };
