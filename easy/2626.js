@@ -5,7 +5,7 @@
  * @return {number}
  */
 var reduce = function(nums, fn, init) {
-    let val = 0
+    let val = init
     // Execute fn on each element of the array
     if(nums.length == 0){
         return init
