@@ -4,6 +4,7 @@
  * @param {number} init
  * @return {number}
  */
+
 var reduce = function(nums, fn, init) {
     let val = init
     // Execute fn on each element of the array
