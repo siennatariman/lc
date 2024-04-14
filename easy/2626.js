@@ -11,12 +11,9 @@ var reduce = function(nums, fn, init) {
         return init
     } else {
         for(let i = 0; i<nums.length; i++){
-            val = fn(nums[i], val)
+            val = fn(val, nums[i])
         }
         return val
-        //
-        //
-        //
     }
     
 };
