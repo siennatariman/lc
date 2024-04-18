@@ -14,7 +14,7 @@ var expect = function(val) {
     };
 
     var notToBe = function(valTwo){
-        if((val ?? defaultValue) !== (valTwo ?? defaultValue)){
+        if(val!==valTwo){
             return true;
         } else {
             throw new Error("Equal");
@@ -31,3 +31,4 @@ var expect = function(val) {
  * expect(5).toBe(5); // true
  * expect(5).notToBe(5); // throws "Equal"
  */
+
