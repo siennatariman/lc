@@ -3,7 +3,7 @@
  * @return {Object}
  */
 var expect = function(val) {
-    defaultValue = null;
+    // defaultValue = null;
 
     var toBe = function(valOne){
         if(val===valOne){
