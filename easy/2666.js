@@ -4,10 +4,11 @@
  */
 var once = function(fn) {
     let counter
-    
-    return function(...args){
-        //
-        //
+
+    if(counter>1){
+        return function(...args){
+        
+        }
     }
 };
 
