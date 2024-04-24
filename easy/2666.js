@@ -3,6 +3,7 @@
  * @return {Function}
  */
 var once = function(fn) {
+    let counter
     
     return function(...args){
         //
