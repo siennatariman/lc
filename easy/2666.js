@@ -4,7 +4,7 @@
  */
 var once = function(fn) {
     let counter
-    
+
     if(counter>1){
         return function(...args){
         counter++
@@ -12,6 +12,7 @@ var once = function(fn) {
     } else {
         return undefined
     }
+    
 };
 
 /**
