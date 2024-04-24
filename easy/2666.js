@@ -9,6 +9,8 @@ var once = function(fn) {
         return function(...args){
         counter++
         }
+    } else {
+        return undefined
     }
 };
 
