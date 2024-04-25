@@ -3,7 +3,7 @@
  * @return {Function}
  */
 var once = function(fn) {
-    let counter
+    let counter=0
 
     if(counter>1){
         return function(...args){
@@ -22,5 +22,8 @@ var once = function(fn) {
  * onceFn(1,2,3); // 6
  * onceFn(2,3,6); // returns undefined without calling fn
  */
+
+
+
 
 
