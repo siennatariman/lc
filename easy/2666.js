@@ -6,9 +6,8 @@ var once = function(fn) {
     let counter=0
 
     if(counter<1){
-        return function(...args){
         counter++
-        }
+        return function(...args)
     } else {
         return undefined
     }
