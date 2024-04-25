@@ -3,7 +3,7 @@
  * @return {Function}
  */
 var once = function(fn) {
-    let counter=0
+    let counter=false
     let result
 
     return function(...args){
