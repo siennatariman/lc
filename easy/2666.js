@@ -4,13 +4,17 @@
  */
 var once = function(fn) {
     let counter=0
+    let result
 
-    if(counter<1){
-        counter++
-        return function(...args)
-    } else {
-        return undefined
+    return function(...args){
+       if(counter<1){
+            counter++
+            return function(...args)
+        } else {
+            return undefined
+        } 
     }
+    
     
 };
 
@@ -21,8 +25,3 @@ var once = function(fn) {
  * onceFn(1,2,3); // 6
  * onceFn(2,3,6); // returns undefined without calling fn
  */
-
-
-
-
-
