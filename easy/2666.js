@@ -7,7 +7,7 @@ var once = function(fn) {
     let result
 
     return function(...args){
-       if(counter<1){
+       if(!called){
             counter++
             return function(...args)
         } else {
