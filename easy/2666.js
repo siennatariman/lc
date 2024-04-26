@@ -8,7 +8,7 @@ var once = function(fn) {
 
     return function(...args){
        if(!called){
-            counter++
+            counter = true
             return function(...args)
         } else {
             return undefined
