@@ -9,13 +9,14 @@ var once = function(fn) {
     return function(...args){
        if(!called){
             counter = true
+            result = fn(...args)
             return function(...args)
         } else {
             return undefined
         } 
     }
     
-    
+    //
 };
 
 /**
