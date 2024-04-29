@@ -3,14 +3,14 @@
  * @return {Function}
  */
 var once = function(fn) {
-    let counter=false
+    let called=false
     let result
 
     return function(...args){
        if(!called){
-            counter = true
+            called = true
             result = fn(...args)
-            return function(...args)
+            return result
         } else {
             return undefined
         } 
