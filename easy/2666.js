@@ -15,9 +15,6 @@ var once = function(fn) {
             return undefined
         } 
     }
-    
-    //
-    //
 };
 
 /**
