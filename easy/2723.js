@@ -4,7 +4,7 @@
  * @return {Promise}
  */
 var addTwoPromises = async function(promise1, promise2) {
-    const [value1, value2] = await
+    const [value1, value2] = await Promise.all
 
 
     return totalValue
