@@ -3,5 +3,7 @@
  * @return {string}
  */
 var longestCommonPrefix = function(strs) {
-    
+    while(){
+    	
+    }
 };
