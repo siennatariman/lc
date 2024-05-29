@@ -7,5 +7,6 @@ var longestCommonPrefix = function(strs) {
         let currentString = strs[i];
         //
         //
+        //
     }
 };
